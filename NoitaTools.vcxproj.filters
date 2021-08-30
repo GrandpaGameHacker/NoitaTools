@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="GUI\GuiState.cpp" />
+    <ClCompile Include="GUI\Interfaces\IWindow.cpp" />
+    <ClCompile Include="GUI\Helpers\ImGuiApp.cpp" />
+    <ClCompile Include="GUI\Helpers\DX12\imgui_impl_dx12.cpp" />
+    <ClCompile Include="GUI\Helpers\DX12\imgui_impl_win32.cpp" />
+    <ClCompile Include="W32\Memory.cpp" />
+    <ClCompile Include="NoitaTools.cpp" />
+    <ClCompile Include="GUI\MainWindow.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GUI\GuiState.h" />
+    <ClInclude Include="GUI\Interfaces\IWindow.h" />
+    <ClInclude Include="GUI\Helpers\custom_config.h" />
+    <ClInclude Include="GUI\Helpers\ImGuiApp.h" />
+    <ClInclude Include="GUI\Helpers\DX12\imgui_impl_dx12.h" />
+    <ClInclude Include="GUI\Helpers\DX12\imgui_impl_win32.h" />
+    <ClInclude Include="W32\Memory.h" />
+    <ClInclude Include="NoitaTools.h" />
+    <ClInclude Include="GUI\MainWindow.h" />
+  </ItemGroup>
+</Project>
