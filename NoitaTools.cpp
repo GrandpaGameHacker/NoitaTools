@@ -27,7 +27,6 @@ void NoitaTools::Initialize()
 		exit(-1);
 	}
 	ImGui_ImplWin32_GetDpiScaleForHwnd(DXWindow);
-	SetWindowLong(DXWindow, GWL_STYLE, 0);
 	ShowWindow(DXWindow, SW_SHOW);
 	UpdateWindow(DXWindow);
 	IMGUI_CHECKVERSION();
